@@ -1,0 +1,6 @@
+rvm use 1.9.3-p0@compass-rails-url-helpers-test --create
+
+which bundle > /dev/null
+if [ $? -eq 1 ]; then
+  gem install "$PWD/vendor/cache/bundler-1.0.21.gem" -v "1.0.21"
+fi

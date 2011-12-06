@@ -1,0 +1,19 @@
+Ok, so try:
+
+`rake assets:precompile`.
+
+I get:
+
+```
+rake aborted!
+wrong number of arguments (2 for 1) for `font-url'
+  (in /.../compass-rails-url-helpers-test/app/assets/stylesheets/application.css.scss)
+
+Tasks: TOP => assets:precompile:primary
+(See full trace by running task with --trace)
+rake aborted!
+Command failed with status (1): [/.../.rvm/rubies/ruby-1.9...]
+
+Tasks: TOP => assets:precompile
+(See full trace by running task with --trace)
+```
